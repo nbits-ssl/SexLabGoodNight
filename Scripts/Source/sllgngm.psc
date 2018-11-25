@@ -75,9 +75,9 @@ Function doSex(Actor Pc, Actor Npc)
 		sexActors[0] = Npc
 		sexActors[1] = Pc
 		if (Utility.RandomInt(0, 1) == 0)
-			anims =  SexLab.GetAnimationsByTags(2, "MF,Oral", "Standing", true)
+			anims =  SexLab.GetAnimationsByTags(2, "MF,Oral", "Standing,Aggressive", true)
 		else
-			anims =  SexLab.GetAnimationsByTags(2, "MF,Cowgirl", "Standing", true)
+			anims =  SexLab.GetAnimationsByTags(2, "MF,Cowgirl", "Standing,Aggressive", true)
 		endif
 	endif
 	
